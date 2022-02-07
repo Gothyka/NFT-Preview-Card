@@ -1,0 +1,108 @@
+/*----------------------------------------------------------------
+                            GENERAL
+----------------------------------------------------------------*/
+
+*{
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------------------------------------------------------
+                            MAIN
+----------------------------------------------------------------*/
+main{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    max-width: 350px;
+    min-width: 350px;
+    height: 560px;
+    max-height: 560px;
+    min-height: 560px;
+    border-radius: 10px;
+}
+
+section{
+    width: 82%;
+    margin: auto;
+}
+
+#image-equilibrium{
+    display: block;
+    margin-top: 10%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+p{
+    font-size: 1em;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-top: 8%;
+    line-height: 25px;
+}
+
+#principalDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6% 0;
+    border-bottom: solid 1px hsl(215, 51%, 70%, 30%);
+    padding-bottom: 15px;
+}
+
+#ethDiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#daysDiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#eth{
+    color: hsl(178, 100%, 50%, 85%);
+    font-weight: 600;
+}
+
+#days{
+    color: hsl(215, 51%, 70%);
+}
+
+#footerDiv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#footerDiv img{
+  width: 12%;
+  border: solid 1px white;
+  border-radius: 25px;
+}
+
+#footerSpanUn{
+    color: hsl(215, 51%, 70%);
+}
+
+#footerSpanDeux{
+   color: hsl(0, 0%, 100%);
+}
